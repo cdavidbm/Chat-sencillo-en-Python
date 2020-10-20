@@ -2,7 +2,7 @@
 
 Para nuestro modulo, usamos la arquitectura cliente-servidor. Esto significa que tendremos varios clientes (los usuarios) y un servidor central que alojara todo y proporcionara los datos para estos clientes. Por lo tanto, necesitamos escribir dos scripts de Python. Uno sera para iniciar el servidor y el otro sera para el cliente. Primero se ejecuta en el servidor para que haya una sala de chat a la que los clientes puedan conectarse. Los propios clientes no se comunicaran directamente entre si, sino a traves del servidor central. 
 
-## IMPLEMENTANDO EL SERVIDOR:
+### IMPLEMENTANDO EL SERVIDOR:
 
 Comenzamos implementando el servidor. Para esto, necesitamos importar dos bibliotecas: `socket` y `threading`. La primera se utilizara para la conexion a la red y la segunda es para que Python pueda realizar varias tareas al mismo tiempo, es decir, que no funcione linealmente como un Script. 
 
@@ -102,7 +102,7 @@ print("El servidor esta escuchando...")
 recibir()
 ```
 
-## IMPLEMENTACION DEL CLIENTE:
+### IMPLEMENTACION DEL CLIENTE:
 
 Nuevamente necesitaremos importar las mismas bibliotecas:
  
